@@ -1,5 +1,29 @@
 # Changelog
 
+## [4.25.0](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/compare/v4.24.0...v4.25.0) (2026-08-17)
+
+
+### Features
+
+* **cli:** add Apify actor reachability audit ([#2867](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2867)) ([ffb24cc](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/ffb24ccbe19969db25dddae785b77ecfbabfe4ef))
+* **generator:** emit CLAUDE.md (@AGENTS.md) for printed CLIs ([#2959](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2959)) ([f1606ea](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/f1606ea9d808485f9565e04ed3dd7de554b5a178))
+
+
+### Bug Fixes
+
+* **catalog:** add health category ([#2868](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2868)) ([579f1bf](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/579f1bfa7ee421b3b0bfc67d7142389690a93c26))
+* **cli:** allow synthetic phase5 external credential skips ([#2866](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2866)) ([01ab864](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/01ab86474f99e640319a971fa312bb93f9161d6e))
+* **cli:** emit local data layer for syncable APIs ([#2881](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2881)) ([7496294](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/749629428975625cffd9277eb65cd00788064615))
+* **cli:** filter telemetry hosts in browser sniff ([#2865](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2865)) ([f621c64](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/f621c6491dbd4452b97cd04a5c7176042b10db89))
+* **cli:** flag oauth2 refresh missing client id ([#2902](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2902)) ([42b952e](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/42b952ea6efe4e58d5b2400e80794c078bc65263))
+* **cli:** honor auth preference in dogfood manifest ([#2878](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2878)) ([54485d5](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/54485d5b21d24f0fdfa242a8dd514345077de042))
+* **cli:** make generated auth hints scheme-aware ([#2875](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2875)) ([62a5a23](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/62a5a2390310946877bd3ab15804f5aa8f5d7724))
+* **cli:** preserve authored generated descriptions ([#2870](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2870)) ([b0ffdb5](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/b0ffdb5e1ec7b3d9c17ffa98b8415f27fb22f093))
+* **cli:** preserve Windows companion CLI fallback ([#2876](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2876)) ([a4e6643](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/a4e6643a4fe5bfe95a99e37015705b73f2176e64))
+* **cli:** use schema hints in generated examples ([#2874](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2874)) ([610ac57](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/610ac57ab59444ab2daadcb25e9110d30a50e80c))
+* **cli:** warn on unenriched promote manifests ([#2871](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2871)) ([bbbc808](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/bbbc808357ebe42bb32bab93ea89257135fe0c6b))
+* skip permission test on Windows where Getuid is unsupported ([#2900](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/issues/2900)) ([9a07c90](https://github.com/DevZonayed/nexalance-skill-mvanhorn-cli-printing-press/commit/9a07c90da19f4dfd7306c2682cd0416deaaf5ed8))
+
 ## [4.24.0](https://github.com/mvanhorn/cli-printing-press/compare/v4.23.1...v4.24.0) (2026-06-08)
 
 
